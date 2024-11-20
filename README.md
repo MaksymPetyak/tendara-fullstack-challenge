@@ -1,22 +1,15 @@
-# next-template
+# Tendara Full-stack AI challenge
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+Tendara helps companies apply to public sector tenders. Part of the process is writing a document outlining key company information and the services that company will provide. These tend to be long and tedious to write, so we are building an AI writing copilot to help with this.
 
-## Usage
+In this tech challenge, we have a simple mini-editor together with a chat for AI copilot. Your task is to implement a flow to generate suggestions and insert them into the editor. You are probably familiar with this flow from Cursor.
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+The goal is that I could ask AI to generate me a paragraph and then insert that suggestion in the editor at the right position.
 
-## Features
+The tech challenge is deliberately open-ended, so there are multiple ways to implement this. We just want to see how you approach problems, structure your code, and think about the UX.
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+Feel free to use any additional libraries you see fit, you are also free to use AI in any way you see fit.
 
-## License
+Do not spend more than 3 hours on this, feel free to just leave comments with thoughts on the general directions you would take if you had more time. 
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+We will provide you with a temporary OpenAI API key to use in this challenge.
