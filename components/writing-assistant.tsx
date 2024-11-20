@@ -3,16 +3,9 @@
 import { useChat } from 'ai/react'
 
 export default function WritingAssistant() {
-  const { messages, input, handleInputChange, handleSubmit, reload } = useChat({
+  const { messages, input, handleInputChange, handleSubmit } = useChat({
     streamProtocol: 'text',
   })
-
-  const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    if (messages.length > 0) {
-      reload()
-    }
-    handleInputChange(e)
-  }
 
   return (
     <div className="flex flex-col w-full gap-4 p-4">
@@ -20,8 +13,8 @@ export default function WritingAssistant() {
       <textarea
         rows={2}
         value={input}
-        onChange={handleInput}
-        className="border rounded p-2 resize-none"
+        onChange={handleInputChange}
+        className="p-2 border rounded resize-none"
         placeholder="Type your message..."
       />
       <button
@@ -30,11 +23,11 @@ export default function WritingAssistant() {
       >
         Submit
       </button>
-      <p>
+      <div className="flex flex-col gap-2">
         {messages.map((message) => (
-          <div key={message.id}>{message.content}</div>
+          <p key={message.id} className="p-2 border rounded">{message.content}</p>
         ))}
-      </p>
+      </div>
     </div>
   )
 }

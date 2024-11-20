@@ -1,3 +1,5 @@
+"use client"
+
 import { Editor } from "@/components/editor";
 import WritingAssistant from "@/components/writing-assistant";
 
