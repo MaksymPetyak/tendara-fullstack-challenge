@@ -4,7 +4,7 @@ Tendara simplifies the process of applying for public tenders. A key step in thi
 
 For this technical challenge, you’ll work on a mini-editor integrated with a chat-based AI copilot. Your objective is to design a flow that allows users to generate writing suggestions and seamlessly insert them into the editor. If you’ve used tools like Cursor, you might already be familiar with a similar workflow.
 
-The key goal is to enable a user to ask for writing suggestions, which could involve editing existing text or creating new text.
+The key is to enable a user to ask for writing suggestions, which could involve editing existing text or creating new text. As an example, we want to be able to ask the AI to rewrite the first paragraph of the text in the editor in a more concise and clear way and then apply those changes if the user agrees.
 
 This challenge is intentionally open-ended, offering multiple ways to approach the implementation. We’re interested in how you solve problems, structure your code, and design the user experience. Feel free to use any libraries or tools you find helpful. You are also welcome to use AI for coding, as we want this to resemble our real coding environment.
 

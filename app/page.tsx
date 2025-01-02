@@ -11,7 +11,7 @@ export default function IndexPage() {
         <h1 className="text-lg font-bold leading-tight tracking-tighter">
           Tendara AI writing copilot
         </h1>
-        <div className="flex w-full gap-4 mt-8">
+        <div className="mt-8 flex w-full gap-4">
           <div className="w-1/2">
             <Editor />
           </div>

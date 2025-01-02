@@ -37,7 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-            <div className="h-full w-full">{children}</div>
+            <div className="size-full">{children}</div>
         </body>
       </html>
     </>
